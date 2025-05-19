@@ -1,0 +1,39 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Configuración local
+.env
+.python-version
+uv.lock
+
+# Archivos de proyecto de editor
+.vscode/
+.idea/
+
+# Archivos de compilación/intermedios
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datos persistentes del proyecto (carga de usuario)
+data/
+scr/data/
+scr/chroma/
+
+# ChromaDB vector store
+chromadb/
+
+# Archivos generados o temporales
+*.log
+*.tmp
+
+# Tests (si los agregas en el futuro)
+.coverage
+htmlcov/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
